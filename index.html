@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizing Data</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+
+</head>
+<body>
+    <div id="headers">
+        <h1>Random Person Generator</h1>
+        <h4>(These people and their credentials do not exist)</h4>
+    </div>
+
+    <div id="person_details">
+        <img class="person_items" src="https://randomuser.me/api/portraits/women/66.jpg">
+    </div>
+
+    <div id="text_div">
+        <h2 class="person_items">Susmitha Ramesh</h2> <!-- [0] name.first name.last -->
+        <ul>
+            <li class="person_items">Gender: female</li> <!-- [0].gender -->
+            <li class="person_items">Location: Tripura, India</li> <!-- [2] location.state location.country -->
+            <li class="person_items">Age: 75</li> <!-- [5] dob.age -->
+            <li class="person_items">Phone Number: 8650859089</li> <!-- [7].phone-->
+            <li class="person_items">Email: sushmitha.ramesh@example.com</li> <!-- [4].email -->
+        </ul>
+    </div>
+
+    <button id="new_person_button">New Person</button>
+
+    <script src="main.js"></script>
+</body>
+</html>

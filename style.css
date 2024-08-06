@@ -1,0 +1,25 @@
+html, body {
+   height: 100%;
+}
+
+body {
+    background-color: #a97b4c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4d2e07
+}
+
+img, button {
+    margin: 25px;
+    width: 200px;
+}
+
+#headers {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
